@@ -52,7 +52,6 @@ public class CasMainV3 {
             result = atomicInteger.compareAndSet(getValue, getValue + 1);
             log("result: " + result);
         } while (!result);
-
         return getValue + 1;
     }
 
