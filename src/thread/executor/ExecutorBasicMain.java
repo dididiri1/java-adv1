@@ -1,11 +1,11 @@
-package thread.excutor;
+package thread.executor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import static thread.excutor.ExecutorUtils.*;
+import static thread.executor.ExecutorUtils.*;
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
 

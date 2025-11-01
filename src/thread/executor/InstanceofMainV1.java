@@ -1,4 +1,4 @@
-package thread.excutor;
+package thread.executor;
 
 public class InstanceofMainV1 {
 
